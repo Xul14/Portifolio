@@ -1,0 +1,60 @@
+:root{
+    --primary-color: #FEDC00;
+    --iconcolor: #252525;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+        "content" ;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    background-color: #000; 
+}
+
+header{
+    grid-area: content;
+    height: 100px;
+    width: 100%;
+    max-width: 1200px;
+    place-self: start center;
+    background-color: #0008;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+
+main{
+    grid-area: content;
+}
+
+section{
+    height: 100vh;
+    background-color: lightsteelblue;
+}
+
+.home{
+    background-color: powderblue;
+}
+
+.sobre-mim{
+    background-color: rebeccapurple;
+}
+.projetos{
+    background-color: skyblue;
+}
+
+.contato{
+    background-color: thistle;
+}
+
+footer{
+    grid-area: content;
+    place-self: end start;
+    width: 100%;
+    height: 100vh;
+    background-color: plum;
+}
