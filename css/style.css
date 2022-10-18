@@ -1,6 +1,10 @@
 :root{
     --primary-color: #FEDC00;
-    --iconcolor: #252525;
+    --icon-color: #252525;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body{
@@ -14,11 +18,9 @@ body{
 
 header{
     grid-area: content;
-    height: 100px;
     width: 100%;
     max-width: 1200px;
     place-self: start center;
-    background-color: #0008;
     margin-top: 48px;
     display: flex;
     justify-content: space-between;
@@ -29,26 +31,23 @@ header{
 
 main{
     grid-area: content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 section{
     height: 100vh;
-    background-color: lightsteelblue;
 }
 
-.home{
-    background-color: powderblue;
-}
-
-.sobre-mim{
-    background-color: rebeccapurple;
-}
 .projetos{
     background-color: skyblue;
+    width: 100%;
 }
 
 .contato{
     background-color: thistle;
+    width: 100%;
 }
 
 footer{
