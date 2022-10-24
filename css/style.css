@@ -71,3 +71,46 @@ footer{
     border-top: 2px solid #fff;
    
 }
+
+/* TABLET */
+@media(max-width:960px){
+    header{
+        max-width: 672px;
+    }
+    .logo{
+        font-size: 1.25rem;
+    }
+    .menu li{
+        display: none;
+    }
+    .menu-lista{
+        display: flex;
+        font-size: 1.25rem;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .home_text{
+        font-size: 1.2rem;
+    }
+    .home_name{
+        font-size: 1.75rem;
+    }
+    .section-title{
+        font-size: 4.5rem;
+    }
+    .sobre-mim{
+        grid-template-areas: 
+        "title title"
+        "description description"
+        "skills skills";
+    }
+
+}
+
+/* MOBILE */
+@media(max-width:640px){
+    
+}
