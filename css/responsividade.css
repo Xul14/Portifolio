@@ -1,0 +1,67 @@
+/* TABLET */
+
+@media(max-width:960px) {
+    header {
+        max-width: 672px;
+    }
+    .logo {
+        font-size: 1.5rem;
+    }
+    .menu li {
+        display: none;
+    }
+    .menu-lista {
+        display: flex;
+        font-size: 1.5rem;
+        color: white;
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .home_text {
+        font-size: 1.2rem;
+    }
+    .home_name {
+        font-size: 1.75rem;
+    }
+    .section-title {
+        font-size: 4.5rem;
+    }
+    .sobre-mim {
+        grid-template-areas: "title title" "description description" "skills skills";
+    }
+    .section-title {
+        font-size: 10rem;
+    }
+    .description {
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .description__title {
+        align-self: center;
+        font-size: 3.5rem;
+    }
+    .description__text {
+        margin: 30px;
+    }
+    .skills {
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills__title {
+        align-self: center;
+        font-size: 3.5rem;
+    }
+    .skills__icons {}
+}
+
+
+/* MOBILE */
+
+@media(max-width:640px) {}
