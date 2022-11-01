@@ -37,7 +37,7 @@
     }
     .sobre-mim {
         grid-template-areas: "title title""description description""skills skills";
-        height: 160vh;
+        height: auto;
     }
     .section-title {
         font-size: 10rem;
@@ -47,6 +47,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-top: 100px;
     }
     .description__title {
         align-self: center;
@@ -60,7 +61,7 @@
     .skills {
         display: flex;
         flex-direction: column;
-        height: 60%;
+        height: auto;
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -81,7 +82,7 @@
     .projetos {
         display: flex;
         flex-direction: column;
-        height: 185vh;
+        height: auto;
         padding: 0px;
     }
     .card-container {
@@ -92,11 +93,13 @@
     .card {
         display: flex;
         flex-direction: column;
+        width: 700px;
+        height: 400px;
     }
     .contato {
         display: flex;
         flex-direction: column;
-        height: 110vh;
+        height: 100vh;
         padding: 0%;
     }
     .contato-container {
@@ -136,6 +139,7 @@
     }
     .logo {
         font-size: 1.25rem;
+        padding-left: 25px;
     }
     .menu li {
         display: none;
@@ -144,6 +148,7 @@
         display: flex;
         font-size: 1.25rem;
         color: white;
+        padding-right: 25px;
     }
     .home {
         display: flex;
@@ -154,7 +159,7 @@
         font-size: 1rem;
     }
     .home_name {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .main {
         grid-template-columns: 1fr;
@@ -164,10 +169,10 @@
     }
     .sobre-mim {
         grid-template-areas: "title title" "description description" "skills skills";
-        height: 200vh;
+        height: auto;
     }
     .section-title {
-        font-size: 7rem;
+        font-size: 4rem;
     }
     .description {
         display: flex;
@@ -177,7 +182,7 @@
     .description__title {
         align-self: center;
         font-size: 2.5rem;
-        padding-top: 30px;
+        padding-top: 100px;
     }
     .description__text {
         padding: 30px;
@@ -190,6 +195,7 @@
         width: 100%;
         justify-content: center;
         align-items: center;
+        height: auto;
     }
     .skills__title {
         align-self: center;
@@ -209,6 +215,7 @@
         flex-direction: column;
         height: 160vh;
         padding: 0%;
+        height: auto;
     }
     .card-container {
         display: flex;
@@ -224,8 +231,9 @@
     .contato {
         display: flex;
         flex-direction: column;
-        height: 80vh;
+        height: 100vh;
         padding: 0%;
+        gap: 25px;
     }
     .contato-container {
         font-size: 1rem;
