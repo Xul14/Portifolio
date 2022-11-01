@@ -1,62 +1,59 @@
-.sobre-mim{
+.sobre-mim {
     display: grid;
-    grid-template-areas: 
-    "title title"
-    "description skills";
+    grid-template-areas: "title title" "description skills";
     max-width: 1200px;
     width: 100%;
     grid-template-rows: auto 1fr;
     grid-template-columns: 1fr 1fr;
-    gap: 64px;
 }
 
-.section-title{
+.section-title {
     grid-area: title;
     font-size: clamp( 2rem, 18vw, 14rem);
     font-weight: 700;
     text-align: center;
-    background: linear-gradient(#fff6,#000);
+    background: linear-gradient(#fff6, #000);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 }
 
-.description{
+.description {
     grid-area: description;
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.description__title{
+.description__title {
     font-size: 3rem;
     color: var(--primary-color);
 }
 
-.description__text{
+.description__text {
     font-size: 1.5rem;
     line-height: 150%;
 }
 
-.skills{
+.skills {
     grid-area: skills;
     gap: 32px;
     display: flex;
     flex-direction: column;
 }
 
-.skills__title{
+.skills__title {
     font-size: 3rem;
     color: var(--primary-color);
 }
 
-.skills__icons{
+.skills__icons {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
 }
 
-.skills__icons .icon{
+.skills__icons .icon {
     width: 150px;
     height: 150px;
     background-color: var(--icon-color);
@@ -67,10 +64,10 @@
     gap: 16px;
 }
 
-.skills__icons i{
+.skills__icons i {
     font-size: 2.4rem;
 }
 
-.skills__icons span{
+.skills__icons span {
     font-size: 1rem;
 }

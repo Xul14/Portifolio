@@ -37,6 +37,7 @@
     }
     .sobre-mim {
         grid-template-areas: "title title""description description""skills skills";
+        height: 160vh;
     }
     .section-title {
         font-size: 10rem;
@@ -59,7 +60,7 @@
     .skills {
         display: flex;
         flex-direction: column;
-        height: 50%;
+        height: 60%;
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -80,8 +81,8 @@
     .projetos {
         display: flex;
         flex-direction: column;
-        height: 80vh;
-        padding: 0%;
+        height: 185vh;
+        padding: 0px;
     }
     .card-container {
         display: flex;
@@ -95,7 +96,7 @@
     .contato {
         display: flex;
         flex-direction: column;
-        height: 70vh;
+        height: 110vh;
         padding: 0%;
     }
     .contato-container {
@@ -122,6 +123,7 @@
     }
     .footer {
         font-size: 30px;
+        height: 50px;
     }
 }
 
@@ -162,12 +164,12 @@
     }
     .sobre-mim {
         grid-template-areas: "title title" "description description" "skills skills";
+        height: 200vh;
     }
     .section-title {
         font-size: 7rem;
     }
     .description {
-        height: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -185,11 +187,9 @@
     .skills {
         display: flex;
         flex-direction: column;
-        height: 70px;
         width: 100%;
         justify-content: center;
         align-items: center;
-        padding-top: 0%;
     }
     .skills__title {
         align-self: center;
@@ -207,7 +207,7 @@
     .projetos {
         display: flex;
         flex-direction: column;
-        height: 200vh;
+        height: 160vh;
         padding: 0%;
     }
     .card-container {
